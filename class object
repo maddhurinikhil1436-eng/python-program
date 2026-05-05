@@ -1,0 +1,30 @@
+class ace:
+    col="ACE ENGINEERING"
+    def give_details(self,a,b,c):
+        self.tot=a+b
+        self.name=c
+    def display(self):
+        print("1.NAME:",self.name)
+        print("2.COLLEGE:",ace.col)
+        print("3.MARKS:",self.tot)
+class bvrit:
+    col="BVRIT ENGINEERING COLLEGE"
+    def get_info(self,a,b,c):
+        self.tot=a+b
+        self.name=c
+    def display(self):
+        print("1.NAME:",self.name)
+        print("2.COLLEGE:",bvrit.col)
+        print("3.MARKS:",self.tot)
+
+
+
+
+
+
+a=ace()
+b=bvrit()
+a.give_details(40,20,"manoj")
+b.get_info(90,50,"aish")
+a.display()
+b.display()
