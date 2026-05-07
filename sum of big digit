@@ -1,0 +1,8 @@
+a=2354
+b=3698
+c=1987
+h=[int(i)for i in str(a)]
+k=[int(i)for i in str(b)]
+l=[int(i)for i in str(c)]
+sum1=max(h)+max(k)+max(l)
+print(sum1)
