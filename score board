@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
+overs=np.arange(1,11)
+scores=[15,20,36,15,26,6,19,25,9,8]
+plt.bar(overs,scores,color="green")
+plt.title("SRH score over wise")
+plt.xlabel("overs from 1 to 10")
+plt.ylabel("runs based on overs")
+plt.xticks(overs)
+plt.grid(axis='y',linestyle="--")
+plt.show()
